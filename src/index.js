@@ -1,3 +1,3 @@
 function reverse(s){
-    return +s.toString().split('').reverse().join("");
+    return +Math.abs(s).toString().split('').reverse().join("");
 }
